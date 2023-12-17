@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Comic Neue", cursive;
+}
+body{
+  background-image: url(/Background.jpg);
+  background-size: cover;
+}
+h1{
+ padding-bottom: 70px;
+ display: flex;
+ justify-content: center; 
+}
+.main  input{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 30px 20px 20px 20px;
+ 
+}
+form {
+  width: 350px;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+ 
+}
+button {
+  background: #fff;
+  border: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+}
+.login{
+  width: 100%;
+  padding-top:20px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

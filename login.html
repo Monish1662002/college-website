@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>LTI login</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body background="education-background-0szq2p4y5m1dc0pt.jpg">
-    <div class="demo">
-        <div class="text"><mark>EDUCATION </mark></div><br>
-        <div class="quote">THAT'S IS THE WAY TO SUCCESS </div>
-    
-    <div class="login">
-    <marquee><h1>Login form</h1></marquee>
-    <form id="login" action="get"></form>
-    User name: <input type="text" name="uname"><br>
-    <br>  <br> <br>  <br> <br>
-    Password: <input type="password" name="password"><br>
-    <br> <br> <br> <br> <br>
-    Re-type pword: <input type="password" name="password">  <br>
-    <br> <br> <br> 
-    <button ><a href="nxt page.html">Submit</a></button>
-    <input type="reset" value="Reset"/>
-    </form>
-    </div>
-    </div>
-</body>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="body">
+        <form>
+          <h1>Login Page</h1>
+          <div class="main">
+            <div class="content">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Username" />
+            <br />
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" />
+            <br />
+            <label for="Re-enter">Re-Enter</label>
+            <input type="password" placeholder="Re-Enter" />
+            <br />
+            </div>
+            <div class="login">
+            <button type="submit">submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+  </body>
 </html>
